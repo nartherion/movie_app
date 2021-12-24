@@ -1,0 +1,111 @@
+.movie-card {
+    border-radius: 0px;
+    padding: 15px;
+    transition: all 0.15s ease-in-out;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.movie-card:hover {
+    transform: translateY(-6px);
+}
+
+.even {
+    background-color: #4b4e52;
+    border-color: #35373a;
+}
+
+.even:hover {
+    border-color: #ff000000;
+    box-shadow: 0 0 10px #35373a;
+}
+
+.odd {
+    background-color:#35373a;
+    border-color: #4b4e52;
+}
+
+.odd:hover {
+    border-color: #ff000000;
+    box-shadow: 0 0 10px #4b4e52;
+}
+
+.card-body {
+    padding: 10px 0px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    color: white;
+    font-size: 28px;
+}
+
+.poster {
+    border-radius: 0px;
+}
+
+.imdb-link {
+    font-size: 24px;
+    color: whitesmoke;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    transition: all 0.2s;
+    bottom: 0px;
+}
+
+.imdb-link:hover {
+    color: yellow;
+}
+
+.link-wrapper {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-link {
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 0px;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    transition: all 0.15s ease-in-out;
+}
+
+.home-link {
+    background-color: brown;
+}
+
+.query-link {
+    background-color: whitesmoke;
+}
+
+.back-home {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.new-query {
+    text-decoration: none;
+    color: #212529;
+    background-color: whitesmoke;
+}
+
+.new-query:hover {
+    text-decoration: underline;
+    color: #212529;
+}
+
+.nav-link:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 10px #343a40;;
+}

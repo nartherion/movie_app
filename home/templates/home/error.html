@@ -1,0 +1,35 @@
+{% extends "home/base.html" %}
+{% load static }
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block header %}
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+              <a class="navbar-brand title" href="/">Your movie tip</a>
+            </div>
+          </nav>
+    </header>
+{% endblock %}
+
+{% block main %}
+    <div class="container-fluid info-wrapper error-message">
+        <h1 class="home-info">
+            There's a problem with your configuration, go back and try again!
+        </h1>
+    </div>
+
+    <div class="container-fluid link-wrapper">
+        <div class="row"> 
+            <div class="col-6 nav-link home-link">
+                <a href="/" class="back-home">Back to home page!</a>
+            </div>
+            <div class="col-6 nav-link query-link">
+                <a href="/search/" class="new-query">Get me something else!</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

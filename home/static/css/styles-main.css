@@ -1,0 +1,133 @@
+body {
+    background-color: #1f2225;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    font-size: 42px;
+    color: white;
+}
+
+.title:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.info-wrapper {
+    background-color: brown;
+}
+
+.home-info {
+    text-align: center;
+    padding: 25px 0px;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+}
+
+.info-hightlight {
+    color: white;
+}
+
+.row {
+    margin: 0px;
+}
+
+.random-option {
+    background-color: #343a40;
+    color:white;
+    padding: 140px 0px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    transition: all 0.15s ease-in-out;
+}
+
+.random-option:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px #343a40;;
+}
+
+.random-search {
+    color: white;
+    font-size: 72px;
+    text-decoration: none;
+}
+
+.random-search:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.configuration-option {
+    padding: 20px;
+    background-color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+}
+
+.configuration-option label {
+    display: block;
+	margin: 0px 0px 20px 0px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    font-size: 28px;
+}
+
+.configuration-option label > span {
+	width: 150px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.configuration-option input.input-field {
+	width: 40%;	
+}
+
+.configuration-option input.input-field-year {
+	width: 10%;	
+}
+
+.configuration-option input.input-field, 
+.configuration-option input.input-field-year {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+	outline: none;
+}
+
+.configuration-option input.input-field:focus, 
+.configuration-option input.input-field-year:focus {
+    border: 1px solid #343a40;
+}
+
+.submit-button {
+    width: 100%;
+    color: white;
+    background-color: brown;
+    border-radius: 0px;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Red Rose', cursive;
+    transition: all 0.15s ease-in-out;
+}
+
+.submit-button:hover {
+    color: white;
+    text-decoration: underline;
+    transform: translateY(-6px);
+    box-shadow: 0 0 10px #343a40;;
+}

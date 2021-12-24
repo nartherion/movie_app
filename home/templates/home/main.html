@@ -1,0 +1,41 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+    Your movie tip
+{% endblock %}
+
+{% block header %}
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+              <a class="navbar-brand title" href="">Your movie tip</a>
+            </div>
+          </nav>
+    </header>
+{% endblock %}
+
+{% block main %}
+    <div class="container-fluid info-wrapper">
+        <h1 class="home-info">
+            Get yourself <span class = "info-hightlight">a movie to watch</span>!
+        </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-5 random-option">
+            <a href="/search/" class="random-search">Just get me <br> something good!</a>
+        </div>
+        <div class="col-7 configuration-option">
+            <form action="/config_search/" method="get">
+                <h1 class="specify-tip">Have preferable genre, director of release span? <br> Specify it!</h1>
+                <label for="genre"><span>Genre</span><input type="text" class="input-field" name="genre" value="" /></label>
+                <label for="director"><span>Director</span><input type="text" class="input-field" name="director" value="" /></label>
+                <h1 class="specify-tip">Release span</h1>
+                <label for="release_gte"><span>From</span><input type="text" class="input-field-year" name="release_gte" value="" /></label>
+                <label for="release_lte"><span>To</span><input type="text" class="input-field-year" name="release_lte" value="" /></label>
+                <button type="submit" class="btn submit-button">Get the movies!</button>
+            </form>
+        </div> 
+        
+    </div>
+{% endblock %}
